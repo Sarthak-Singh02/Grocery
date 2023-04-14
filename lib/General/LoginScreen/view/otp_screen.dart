@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../Widgets/widgets.dart';
+import '../../Widgets/widgets.dart';
 import '../controller/login_controller.dart';
 
 class OtpScreen extends StatelessWidget {

@@ -1,9 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:one_stop_grocery/Customer/Customer%20Profile/view/profile_view.dart';
 import 'package:one_stop_grocery/General/LoginScreen/controller/login_controller.dart';
 import 'package:one_stop_grocery/General/LoginScreen/view/login_screen.dart';
-import 'package:one_stop_grocery/HomeScreen/controller/home_screen_controller.dart';
+import 'package:one_stop_grocery/General/HomeScreen/controller/home_screen_controller.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({super.key});
@@ -92,7 +93,14 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
             ListTile(
-              onTap: () {},
+              onTap: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (BuildContext context) => ProfileView(),
+                  ),
+                );
+              },
               leading: Icon(Icons.person),
               title: Text(
                 "Profile",

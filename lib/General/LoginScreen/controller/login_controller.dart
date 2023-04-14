@@ -4,10 +4,10 @@ import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:one_stop_grocery/Customer/Customer%20Onboarding/model/customer_regiatration_model.dart';
 import 'package:one_stop_grocery/Customer/Customer%20Onboarding/view/customer_registration.dart';
-import 'package:one_stop_grocery/General/LoginScreen/Widgets/widgets.dart';
+import 'package:one_stop_grocery/General/Widgets/widgets.dart';
 import 'package:one_stop_grocery/General/LoginScreen/view/otp_screen.dart';
 
-import '../../../HomeScreen/view/home_screen.dart';
+import '../../HomeScreen/view/home_screen.dart';
 
 class LoginController extends GetxController {
   TextEditingController phoneController = TextEditingController();

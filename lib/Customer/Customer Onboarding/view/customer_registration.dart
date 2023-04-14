@@ -4,8 +4,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:get_storage/get_storage.dart';
-import 'package:one_stop_grocery/General/LoginScreen/Widgets/widgets.dart';
-import 'package:one_stop_grocery/HomeScreen/view/home_screen.dart';
+import 'package:one_stop_grocery/General/Widgets/widgets.dart';
+import 'package:one_stop_grocery/General/HomeScreen/view/home_screen.dart';
 
 import '../controller/customer_registration_controller.dart';
 

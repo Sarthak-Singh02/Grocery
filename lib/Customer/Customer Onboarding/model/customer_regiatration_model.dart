@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 
 import 'package:get_storage/get_storage.dart';
 
-import '../../../HomeScreen/view/home_screen.dart';
+import '../../../General/HomeScreen/view/home_screen.dart';
 import '../view/customer_registration.dart';
 
 class CustomerRegistrationModel {

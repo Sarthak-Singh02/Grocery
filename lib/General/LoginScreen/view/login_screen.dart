@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:one_stop_grocery/General/LoginScreen/Widgets/widgets.dart';
+import 'package:one_stop_grocery/General/Widgets/widgets.dart';
 import 'package:one_stop_grocery/General/LoginScreen/controller/login_controller.dart';
 
 class LoginScreen extends StatelessWidget {
